@@ -2,7 +2,7 @@
 import PokePicture from '../components/PokePicture.vue';
 import PokeOptions from '../components/PokeOptions.vue';
 import { usePokemonGame } from '../composables/usePokemonGame';
-import { GameStatus } from '../Interfaces';
+import { GameStatus } from '../interfaces';
 
 const {
   gameStatus,

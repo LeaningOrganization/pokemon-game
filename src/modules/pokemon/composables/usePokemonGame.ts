@@ -1,7 +1,7 @@
 import { computed, onMounted, ref } from 'vue';
-import { GameStatus, type PokeListResponse } from '../Interfaces';
+import { GameStatus, type PokeListResponse } from '../interfaces';
 import { pokeApi } from '../api/pokeApi';
-import type { Pokemon } from '../Interfaces/IPokemon';
+import type { Pokemon } from '../interfaces/IPokemon';
 import PokemonGame from '../views/PokemonGame.vue';
 import confetti from 'canvas-confetti';
 

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Pokemon } from '../Interfaces';
+import type { Pokemon } from '../interfaces';
 import { defineEmits } from 'vue';
 
 interface Props {
