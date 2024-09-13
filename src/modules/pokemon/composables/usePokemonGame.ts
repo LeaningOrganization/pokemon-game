@@ -60,13 +60,17 @@ export const usePokemonGame = () => {
   };
 
   onMounted(async () => {
+    console.log('mounted :) ');
     // delay
     // await new Promise((r) => setTimeout(r, 1000));
+
     pokemons.value = await getPokemons();
     getNextRound();
 
     // console.log(pokemons);
     console.log(pokemonOptions.value);
+
+    console.log(' finish mounted process :) ');
   });
 
   return {

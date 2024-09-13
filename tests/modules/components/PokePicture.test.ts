@@ -18,7 +18,7 @@ test('should render hidden image whe showPokemon prop is false', ()=>{
 
     expect(attributes).toEqual(
         expect.objectContaining({
-            class:"brightness-0 h-[250px]",
+            class:"brightness-0 h-[250px] py-8",
             alt:"Pokemon images",
             src:imgSource,
         }),
